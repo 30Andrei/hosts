@@ -1,4 +1,5 @@
 #!/bin/bash
+echo "andrei furculita"
 
 cat /etc/hosts | while read -r ip name; do
     [[ -z "$ip" || "$ip" =~ ^# ]] && continue
